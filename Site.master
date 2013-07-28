@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Account_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 100%;
+        }
+        .auto-style6
+        {
+            height: 176px;
+            width: 455px;
+        }
+        .auto-style7
+        {
+            height: 117px;
+            width: 455px;
+        }
+        .auto-style9
+        {
+            height: 176px;
+            width: 165px;
+        }
+        .auto-style10
+        {
+            height: 117px;
+            width: 165px;
+        }
+        .auto-style12
+        {
+            height: 176px;
+            width: 75px;
+        }
+        .auto-style13
+        {
+            height: 117px;
+            width: 75px;
+        }
+        .auto-style14
+        {
+            height: 175px;
+            width: 165px;
+        }
+        .auto-style15
+        {
+            height: 175px;
+            width: 455px;
+        }
+        .auto-style16
+        {
+            height: 175px;
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+                    <table class="auto-style1">
+                <tr>
+                    <td class="auto-style14">
+                        <br />
+        <asp:Label ID="Label1" runat="server" Text="Find YourProduct!!!"></asp:Label>
+                        <br />
+                        <br />
+        <asp:TextBox ID="TextBox1" runat="server" Width="128px"></asp:TextBox>
+                        <br />
+        <asp:Button ID="Search" runat="server" Text="Search" Width="79px" OnClick="Button1_Click" />
+                    </td>
+                    <td class="auto-style15">
+        <asp:Image ID="Image1" runat="server" AlternateText="Fatisi Furs / Leather" Height="188px" ImageAlign="Middle" ImageUrl="~/Images/fatisi-furs-slide-header-1.jpg" Width="821px" />
+                    </td>
+                    <td class="auto-style16"></td>
+                </tr>
+                <tr>
+                    <td class="auto-style9">
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/footer.gif" Width="158px" />
+                    </td>
+                    <td class="auto-style6">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+           
+            <p>
+                <br />
+            </p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+           
+        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="auto-style12"></td>
+                </tr>
+                <tr>
+                    <td class="auto-style10">
+                        <asp:Image ID="Image3" runat="server" Height="132px" ImageUrl="~/Images/fatisi-furs-shop-entrance.jpg" style="margin-right: 0px" Width="240px" />
+                    </td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style13"></td>
+                </tr>
+            </table>
+    </div>
+    </form>
+    <p>
+        &nbsp;</p>
+</body>
+</html>
