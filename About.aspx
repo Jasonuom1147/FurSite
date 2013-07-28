@@ -10,7 +10,12 @@
     <form id="form1" runat="server">
     <div>
     
-        About Jason Tsoumenis</div>
+        About Jason Tsoumenis
+        <br />
+        <br />
+        Diplomatikh ergasia gia to panepisthmio makedonias<br />
+        <br />
+        </div>
     </form>
 </body>
 </html>
