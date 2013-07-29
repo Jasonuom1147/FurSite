@@ -6,6 +6,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Data.Sql;
+using System.Configuration;
+
 
 public partial class cart : System.Web.UI.Page
 {
@@ -15,7 +18,7 @@ public partial class cart : System.Web.UI.Page
         {
             if (Request.QueryString["Id"] != null)
             {
-                Add(Convert.ToInt32(Request.QueryString["Quant"]));
+                Add(Convert.ToInt32(Request.QueryString["quant"]));
                 GridView1.DataSource = GetDataSetcart();
                 GridView1.DataBind();
             }
@@ -57,11 +60,13 @@ public partial class cart : System.Web.UI.Page
         }
  
     }
-    private void Add(int Quantity)
+    private void Add(int quantity)
     {
+        
         //search database
-        SqlConnection con = new SqlConnection("connectionString");
-        String aSQL = "Select Name, Price from products WHERE Id=" + Request.QueryString["Id"].ToString();
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["connectionString"].ToString());
+
+        string aSQL = "select Name, price from products where Id=" + Request.QueryString["Id"].ToString();
         try
         {
             con.Open();
@@ -78,14 +83,14 @@ public partial class cart : System.Web.UI.Page
                 row = dt.NewRow();
                 row["Id"] = Request.QueryString["Id"];
                 row["Name"] = reader["Name"];
-                row["Quantity"] = Quantity;
-                row["Price"] = reader["Price"];
+                row["Quantity"] = quantity;
+                row["price"] = reader["price"];
                 dt.Rows.Add(row);
             }
             else
             {
                 int qtd = Convert.ToInt32(row["Quantity"]);
-                qtd = qtd + Quantity;
+                qtd = qtd + quantity;
                 row["Quantity"] = qtd;
             }
         }

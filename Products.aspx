@@ -11,7 +11,7 @@
     <div>
     
     </div>
-        <asp:FormView ID="FormView1" runat="server" CellPadding="4" DataKeyNames="Id" DataSourceID="SqlDataSource1" ForeColor="#333333">
+        <asp:FormView ID="FormView1" runat="server" CellPadding="4" DataKeyNames="Id" DataSourceID="SqlDataSource1" ForeColor="#333333" OnPageIndexChanging="FormView1_PageIndexChanging">
             <EditItemTemplate>
                 Id:
                 <asp:Label ID="IdLabel1" runat="server" Text='<%# Eval("Id") %>' />
