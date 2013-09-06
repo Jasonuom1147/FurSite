@@ -1,0 +1,1850 @@
+<?xml version="1.0" standalone="yes"?>
+<HtmlScanResultsCache xmlns="http://tempuri.org/HtmlScanResults.xsd">
+  <HtmlScanResults>
+    <NodeName>About.aspx</NodeName>
+    <Expanded>true</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>About.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>About Jason Tsoumenis</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>About.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Diplomatikh ergasia gia to panepisthmio makedonias</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Advertise.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>boleto.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>card.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.Content2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.GridView1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.GridView1.Columns</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.BoundFieldResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.BoundFieldResource0.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.BoundFieldResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.BoundFieldResource1.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Quantity</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.BoundFieldResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.BoundFieldResource2.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.BoundFieldResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.BoundFieldResource3.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Subtotal</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.Button1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Back</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>cart.aspx.Button2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Finish</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>ChinchilaFurs.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Welcome to our Web store</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.DynamicHoverStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.DynamicMenuItemStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.DynamicMenuStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.DynamicSelectedStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.Items</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.MenuItemResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>About</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.MenuItemResource0.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>About</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.MenuItemResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Προϊόντα</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.MenuItemResource1.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>products</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.MenuItemResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Επιδείξεις μόδας</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.MenuItemResource2.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>fashion</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.MenuItemResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Επικοινωνία</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.MenuItemResource3.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Contact</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.StaticHoverStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.StaticMenuItemStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Menu1.StaticSelectedStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Search.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Search</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.HyperLink1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Register</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Button2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Button</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.Columns</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.BoundFieldResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.BoundFieldResource0.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.BoundFieldResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.BoundFieldResource1.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.HyperLinkFieldResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.HyperLinkFieldResource0.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.FooterStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.HeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.PagerStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.RowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.SelectedRowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.SortedAscendingCellStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.SortedAscendingHeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.SortedDescendingCellStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.GridView1.SortedDescendingHeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.SqlDataSource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.SqlDataSource1.SelectParameters</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Button1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Submit</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.Label1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Label</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Default.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>h php ksekinaei edw</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.Content2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Finished purchase</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Choose pay Method</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.LiteralResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Total:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.Label2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Label</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.DropDownList1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.ListItemResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Boleto</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.ListItemResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>CreditCar</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.ListItemResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Post</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.ListItemResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>PayPal</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>finish.aspx.Button1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Finish Order</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.Content2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.Columns</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.BoundFieldResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.BoundFieldResource0.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.BoundFieldResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.BoundFieldResource1.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.HyperLinkFieldResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.HyperLinkFieldResource0.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.FooterStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.HeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.PagerStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.RowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.SelectedRowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.SortedAscendingCellStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.SortedAscendingHeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.SortedDescendingCellStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.GridView1.SortedDescendingHeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.SqlDataSource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Home.aspx.SqlDataSource1.SelectParameters</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.Content2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.AlternatingRowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.CommandRowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.EditRowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.FieldHeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.Fields</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.BoundFieldResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.BoundFieldResource0.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.BoundFieldResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.BoundFieldResource1.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.BoundFieldResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.BoundFieldResource2.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.FooterStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.HeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.PagerStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.DetailsView1.RowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.SqlDataSource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.SqlDataSource1.SelectParameters</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.FormView1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.FormView1.</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>length:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>shoulder:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>sleeves:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource5.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>date:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource6.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.UpdateButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Update</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.UpdateCancelButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Cancel</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.FormView1.EditRowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.FormView1.FooterStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.FormView1.HeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource7.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource8.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource9.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>length:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource10.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>shoulder:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource11.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>sleeves:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource12.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>date:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource13.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.InsertButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Insert</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.InsertCancelButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Cancel</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource14.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource15.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource16.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.LiteralResource17.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Quantity:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.Button1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Add to cart</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.FormView1.PagerStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>infoproduct.aspx.FormView1.RowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.PageResource0.Title</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Log in</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.BodyContent.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Use a local account to log in.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LoginResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LoginResource0.</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LiteralResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Log in Form</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LabelResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>User name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.RequiredFieldValidatorResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.RequiredFieldValidatorResource0.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The user name field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LabelResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.RequiredFieldValidatorResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.RequiredFieldValidatorResource1.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The password field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LabelResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Remember me?</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.ButtonResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Log in</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.RegisterHyperLink.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Register</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LiteralResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>if you don't have an account.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Login.aspx.LiteralResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Use another service to log in.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.PageResource0.Title</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Manage Account</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ContentResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>You're logged in as</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.setPassword.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>You do not have a local password for this site. Add a local
+                password so you can log in without an external login.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Set Password Form</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LabelResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource0.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The password field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LabelResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Confirm password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource1.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The confirm password field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.CompareValidatorResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.CompareValidatorResource0.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The password and confirmation password do not match.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ButtonResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Set Password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.changePassword.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource5.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Change password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ChangePasswordResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ChangePasswordResource0.</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource6.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Change password details</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.CurrentPasswordLabel.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Current password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource2.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The current password field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.NewPasswordLabel.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>New password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource3.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The new password is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ConfirmNewPasswordLabel.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Confirm new password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.RequiredFieldValidatorResource4.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Confirm new password is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.CompareValidatorResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.CompareValidatorResource1.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The new password and confirmation password do not match.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ButtonResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Change password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ListViewResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ListViewResource0.</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource7.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Registered external logins</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource8.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Service</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource9.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>User Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource10.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Last Used</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.ButtonResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Remove</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.LiteralResource11.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Add an external login</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.OpenAuthProvidersResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Manage.aspx.OpenAuthProvidersResource0.ReturnUrl</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>~/Account/Manage.aspx</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>OpenAuthProviders.ascx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>OpenAuthProviders.ascx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Log in using another service</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>OpenAuthProviders.ascx.ListViewResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>OpenAuthProviders.ascx.ListViewResource0.</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>OpenAuthProviders.ascx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>There are no external authentication services configured. See</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>OpenAuthProviders.ascx.LiteralResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>this article</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>OpenAuthProviders.ascx.LiteralResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>for details on setting up this ASP.NET application to support logging in via external services.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>paypal.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.FormView1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.FormView1.</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>length:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>shoulder:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>sleeves:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource5.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource6.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>date:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.UpdateButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Update</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.UpdateCancelButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Cancel</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.FormView1.EditRowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.FormView1.FooterStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.FormView1.HeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource7.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource8.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource9.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>length:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource10.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>shoulder:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource11.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>sleeves:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource12.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource13.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>date:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.InsertButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Insert</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.InsertCancelButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Cancel</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource14.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource15.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource16.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>length:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource17.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>shoulder:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource18.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>sleeves:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource19.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.LiteralResource20.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>date:</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.EditButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Edit</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.DeleteButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Delete</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.NewButton.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>New</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.FormView1.PagerStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.FormView1.RowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.SqlDataSource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.SqlDataSource1.DeleteParameters</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.SqlDataSource1.InsertParameters</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Products.aspx.SqlDataSource1.UpdateParameters</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.PageResource0.Title</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Register</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.BodyContent.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Use the form below to create a new account.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RegisterUser.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RegisterUser.</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RegisterUser.WizardSteps</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RegisterUserWizardStep.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RegisterUserWizardStep.</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LiteralResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Passwords are required to be a minimum of</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LiteralResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>characters in length.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LiteralResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Registration Form</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LabelResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>User name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RequiredFieldValidatorResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RequiredFieldValidatorResource0.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The user name field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LabelResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Email address</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RequiredFieldValidatorResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RequiredFieldValidatorResource1.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The email address field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LabelResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RequiredFieldValidatorResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RequiredFieldValidatorResource2.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The password field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.LabelResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Confirm password</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RequiredFieldValidatorResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.RequiredFieldValidatorResource3.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The confirm password field is required.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.CompareValidatorResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.CompareValidatorResource0.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>The password and confirmation password do not match.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Register.aspx.ButtonResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Register</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.ContentResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Register with your</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.LiteralResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>account</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.LiteralResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.userNameForm.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.LiteralResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Association Form</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.LiteralResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>You've authenticated with</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.LiteralResource5.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>as</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.LiteralResource6.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>. Please enter a user name below for the current site
+                and click the Log in button.</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.LabelResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>User name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.RequiredFieldValidatorResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.RequiredFieldValidatorResource0.ErrorMessage</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>User name is required</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.ButtonResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Log in</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>RegisterExternalLogin.aspx.ButtonResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Cancel</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SableFurs.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.HeadResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.HeadResource0.Title</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>FurSite-EShop</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Image1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Image1.AlternateText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Fatisi Furs / Leather</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Search.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Search</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Menu1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Menu1.Items</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Home</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource0.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Home</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Company</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource1.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Company</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Products</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource2.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Probucts</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Quality</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource3.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Quality</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>News</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource4.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>News</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource5.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Originality</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.MenuItemResource5.Value</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Originality</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Menu1.StaticHoverStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Menu1.StaticMenuItemStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Menu1.StaticMenuStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Menu1.StaticSelectedStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.LiteralResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>EXTRAS</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Menu3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>Site.master.Menu3.Items</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.Columns</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.BoundFieldResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.BoundFieldResource0.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.BoundFieldResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.BoundFieldResource1.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.BoundFieldResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.BoundFieldResource2.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.FooterStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.HeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.PagerStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.RowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.SelectedRowStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.SortedAscendingCellStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.SortedAscendingHeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.SortedDescendingCellStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SubPages\Products.aspx.GridView1.SortedDescendingHeaderStyle</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>SwakaraFurs.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.GridView1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.GridView1.Columns</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource0.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource0.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Id</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource1.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>Name</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource2.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource2.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>length</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource3.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource3.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>shoulder</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource4.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource4.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>sleeves</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource5.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource5.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>price</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource6.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.BoundFieldResource6.HeaderText</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText>date</OriginalText>
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.SqlDataSource1.Text</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+  <HtmlScanResults>
+    <NodeName>VisonFurs.aspx.SqlDataSource1.SelectParameters</NodeName>
+    <Expanded>false</Expanded>
+    <OriginalText />
+  </HtmlScanResults>
+</HtmlScanResultsCache>

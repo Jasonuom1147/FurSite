@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<!-- 
+  Visual Studio global web project settings.
+-->
+<VisualWebDeveloper>
+
+  <comReferences>
+    <reference Name="interop.cobrebemx" ID="{97B92612-EA6B-4E12-B759-91B91554DE0D}\1.0\0"/>
+  </comReferences>
+</VisualWebDeveloper>

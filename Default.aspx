@@ -27,7 +27,12 @@
         </asp:Menu>
         <h1>&nbsp;<asp:Image ID="Image1" runat="server" ImageUrl="~/Images/fatisi-furs-slide-header-1.jpg" />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
-        <h1>&nbsp;</h1>
+        <h1>
+        <asp:Button ID="Search" runat="server" Text="Search" Width="79px" OnClick="Button1_Click" />
+                    </h1>
+        <p>
+        <asp:TextBox ID="TextBox2" runat="server" Width="128px"></asp:TextBox>
+                        </p>
         <p>
             &nbsp;</p>
         <p>
@@ -38,6 +43,41 @@
         <p>
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
         </p>
+    <p>
+        <br />
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" DataKeyNames="Id" DataSourceID="SqlDataSource1" Height="271px" Width="443px" AllowPaging="True" AllowSorting="True" Font-Size="Medium">
+            <Columns>
+                <asp:CommandField ShowSelectButton="True" />
+                <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" DataFormatString="{0:c}" />
+                <asp:BoundField DataField="price" HeaderText="price" SortExpression="price" DataFormatString="{0:c}" />
+                <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="infoproduct.aspx?ID={0}" DataTextField="Name" HeaderText="Name" />
+            </Columns>
+            <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
+            <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+            <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
+            <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
+            <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
+            <SortedAscendingCellStyle BackColor="#FFF1D4" />
+            <SortedAscendingHeaderStyle BackColor="#B95C30" />
+            <SortedDescendingCellStyle BackColor="#F1E5CE" />
+            <SortedDescendingHeaderStyle BackColor="#93451F" />
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [Name], [Id], [length], [shoulder], [sleeves], [price], [date] FROM [products] WHERE ([Name] LIKE '%' + @Name + '%')">
+            <SelectParameters>
+                <asp:QueryStringParameter Name="Name" QueryStringField="Search" Type="String" />
+            </SelectParameters>
+        </asp:SqlDataSource>
+    </p>
+    <p>
+        &nbsp;</p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
         <p>&nbsp;</p>
         <p>
             &nbsp;</p>

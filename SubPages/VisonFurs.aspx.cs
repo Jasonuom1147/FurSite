@@ -5,14 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Products : System.Web.UI.Page
+public partial class SubPages_Vison_Furs : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
 
     }
-    protected void FormView1_PageIndexChanging(object sender, FormViewPageEventArgs e)
+    protected void ImageMap1_Click(object sender, ImageMapEventArgs e)
     {
-
+      
     }
 }

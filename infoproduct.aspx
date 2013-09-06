@@ -23,7 +23,7 @@
             <asp:QueryStringParameter Name="Id" QueryStringField="Id" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
-    <asp:FormView ID="FormView1" runat="server" CellPadding="4" DataKeyNames="Id" DataSourceID="SqlDataSource1" ForeColor="#333333" OnPageIndexChanging="FormView1_PageIndexChanging">
+    <asp:FormView ID="FormView1" runat="server" CellPadding="4" DataKeyNames="Id" DataSourceID="SqlDataSource1" ForeColor="#333333" OnPageIndexChanging="FormView1_PageIndexChanging" Width="192px">
         <EditItemTemplate>
             Id:
             <asp:Label ID="IdLabel1" runat="server" Text='<%# Eval("Id") %>' />
