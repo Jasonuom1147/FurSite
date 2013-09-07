@@ -14,15 +14,22 @@ public partial class cart : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!IsPostBack)
+        //login authentication
+        if (Session["user"] != null)  
         {
-            if (Request.QueryString["Id"] != null)
+            if (!IsPostBack)
             {
-                Add(Convert.ToInt32(Request.QueryString["quant"]));
-                GridView1.DataSource = GetDataSetcart();
-                GridView1.DataBind();
+                if (Request.QueryString["Id"] != null)
+                {
+                    Add(Convert.ToInt32(Request.QueryString["quant"]));
+                    GridView1.DataSource = GetDataSetcart();
+                    GridView1.DataBind();
+                }
             }
         }
+        else
+            Response.Redirect("login.aspx?ID=" + Request.QueryString["Id"] + "&quant=" + Request.QueryString["quant"]);
+
     }
     protected void Button2_Click(object sender, EventArgs e)
     {

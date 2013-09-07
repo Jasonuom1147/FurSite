@@ -33,8 +33,7 @@
     <p>
         &nbsp;</p>
     <p>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Localization_Test" />
-    </p>
+        &nbsp;</p>
     <p>
         &nbsp;</p>
     <p>

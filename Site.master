@@ -75,7 +75,7 @@
                     <table class="auto-style1">
                 <tr>
                     <td class="auto-style23">
-                        &nbsp;</td>
+                        &nbsp;</td&nbsp;</td>
                     <td class="auto-style24">
                         <asp:Menu ID="Menu1" runat="server" Height="10px" Orientation="Horizontal" meta:resourcekey="Menu1Resource1">
                             <Items>
