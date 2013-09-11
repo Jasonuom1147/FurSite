@@ -1,0 +1,234 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Account_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+</script>
+    <title>FurSite-EShop</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 115%;
+            margin-top: 0px;
+            height: 826px;
+        }
+        .auto-style7
+        {
+            height: 345px;
+            width: 860px;
+        }
+        .auto-style13
+        {
+            height: 345px;
+            width: 26px;
+        }
+        .auto-style19
+        {
+            height: 345px;
+            width: 64px;
+        }
+        .auto-style23
+        {
+            height: 69px;
+            width: 64px;
+        }
+        .auto-style24
+        {
+            height: 69px;
+            width: 860px;
+        }
+        .auto-style25
+        {
+            height: 69px;
+            width: 26px;
+        }
+        .auto-style26
+        {
+            height: 348px;
+            width: 64px;
+        }
+        .auto-style27
+        {
+            height: 348px;
+            width: 860px;
+        }
+        .auto-style28
+        {
+            height: 348px;
+            width: 26px;
+        }
+        #TheImage
+        {
+            height: 143px;
+            width: 204px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body background="Images\background.jpg"> <!--backgroung -->
+    <form id="form1" runat="server">
+    <div style="background-image: url('/FurSiteMs/TestSite/TestSite/Images/Bottom_texture.jpg')">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Button ID="flag2" runat="server" OnClick="Button2_Click" Text="English" />
+                        <asp:Button ID="flag1" runat="server" OnClick="Button1_Click1" Text="Greek" Font-Italic="True" />
+                        <br />
+        <asp:Label ID="welcome_message" runat="server" Text="Label"></asp:Label>
+        <br />
+                        &nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Image ID="Image1" runat="server" AlternateText="Fatisi Furs / Leather" Height="282px" ImageAlign="Middle" ImageUrl="~/Images/fatisi-furs-slide-header-1.jpg" Width="872px" BorderWidth="7px" ForeColor="Black" meta:resourcekey="Image1Resource1" style="margin-top: 0px; margin-left: 0px;" />
+
+                    <table class="auto-style1">
+                <tr>
+                    <td class="auto-style23">
+                        &nbsp;</td&nbsp;</td>
+                    <td class="auto-style24">
+                        &nbsp;&nbsp;
+                        <asp:Menu ID="Menu1" runat="server" Height="10px" Orientation="Horizontal" meta:resourcekey="Menu1Resource1">
+                            <Items>
+                                <asp:MenuItem Text="Home" Value="Home" PopOutImageUrl="~/Images/button.png" meta:resourcekey="MenuItemResource5"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/About.aspx" Text="Company" Value="Company" meta:resourcekey="MenuItemResource6"></asp:MenuItem>
+                                <asp:MenuItem Text="Products" Value="Probucts" NavigateUrl="~/SubPages/Products.aspx" meta:resourcekey="MenuItemResource7"></asp:MenuItem>
+                                <asp:MenuItem Text="Quality" Value="Quality" meta:resourcekey="MenuItemResource8"></asp:MenuItem>
+                                <asp:MenuItem Text="News" Value="News" meta:resourcekey="MenuItemResource9"></asp:MenuItem>
+                                <asp:MenuItem Text="Originality" Value="Originality" meta:resourcekey="MenuItemResource10"></asp:MenuItem>
+                            </Items>
+                            <StaticHoverStyle BackColor="#FFCC99" Font-Bold="True" Font-Italic="True" Font-Size="X-Large" />
+                            <StaticMenuItemStyle BackColor="#009933" BorderColor="#996633" BorderStyle="Ridge" BorderWidth="10px" Font-Bold="True" Font-Size="X-Large" />
+                            <StaticMenuStyle BackColor="Yellow" />
+                            <StaticSelectedStyle BackColor="#CC3300" />
+                        </asp:Menu>
+                    </td>
+                    <td class="auto-style25">
+                   <asp:Button ID="Search" runat="server" Text="Search" Width="79px" OnClick="Button1_Click" meta:resourcekey="SearchResource1" />
+                        
+                        <br />
+                        
+        <asp:TextBox ID="TextBox1" runat="server" Width="128px" meta:resourcekey="TextBox1Resource1"></asp:TextBox>
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style26" colspan="0">
+                        <br />
+                        <asp:Label ID="Label1" runat="server" Text="Home"></asp:Label>
+                        <asp:Menu ID="Menu2" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Small" ForeColor="#990000" StaticSubMenuIndent="10px" Font-Italic="True" Font-Underline="False">
+                            <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#FFFBD6" />
+                            <DynamicSelectedStyle BackColor="#FFCC66" />
+                            <Items>
+                                <asp:MenuItem NavigateUrl="~/SubPages/VisonFurs.aspx" Text="Vison" Value="Vison"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/SubPages/ChinchilaFurs.aspx" Text="Chinchila" Value="Chinchila"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/SubPages/SableFurs.aspx" Text="Fox" Value="Fox"></asp:MenuItem>
+                                <asp:MenuItem Text="Lynx Furs" Value="Lynx Furs"></asp:MenuItem>
+                                <asp:MenuItem Text="Saga Furs Collection" Value="Saga Furs Collection"></asp:MenuItem>
+                                <asp:MenuItem Text="High Fashion Furs" Value="High Fashion Furs"></asp:MenuItem>
+                                <asp:MenuItem Text="Other Furs" Value="Other Furs"></asp:MenuItem>
+                            </Items>
+                            <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <StaticSelectedStyle BackColor="#FFCC66" />
+                        </asp:Menu>
+                    
+                    </td>
+                    <td class="auto-style27">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+           
+            <p>
+                <br />
+            </p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+           
+        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="auto-style28">
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/leftimg.jpg" Width="135px" Height="264px" style="margin-top: 0px" meta:resourcekey="Image2Resource1" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style19">
+                        <asp:Image ID="Image3" runat="server" Height="132px" ImageUrl="~/Images/fatisi-furs-shop-entrance.jpg" style="margin-right: 0px; margin-top: 13px;" Width="131px" meta:resourcekey="Image3Resource1" />
+                    </td>
+                    <td class="auto-style7"><asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+
+                                            <p>
+                                                <br />
+                                            </p>
+                                            <p>
+                                            </p>
+                                            <p>
+                                            </p>
+                                            <p>
+                                            </p>
+                                            <p>
+                                                &nbsp;</p>
+                                            <p>
+                                            </p>
+                                            <p>
+                                            </p>
+                                            <p>
+                                            </p>
+                                            <p>
+                                            </p>
+
+                                            </asp:ContentPlaceHolder></td>
+                    <td class="auto-style13">
+                        <asp:Image ID="Image4" runat="server" Height="187px" ImageUrl="~/Images/fatisi-furs-shop.jpg" />
+                        <asp:Label ID="shop1" runat="server" Text="Label"></asp:Label>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        
+                        <br />
+                        <br />
+                        <asp:Label ID="shop2" runat="server" Text="Label"></asp:Label>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                <!-- AddThis Button BEGIN socila media buttons -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-522dfb6d73201117"></script>
+<!-- AddThis Button END social media-->
+
+    </p>
+    </form>
+    </body>
+</html>
