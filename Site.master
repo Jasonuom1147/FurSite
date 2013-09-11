@@ -69,14 +69,12 @@
     </style>
 </head>
 <body>
-  background-image: url(Images/background.jpg);
-  background-size: cover; 
         <form id="form1" runat="server">
     <div style="background-image: url('/FurSiteMs/TestSite/TestSite/Images/Bottom_texture.jpg')">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Image ID="englishln" runat="server" ImageUrl="~/Images/englandfl.png" />
                         <asp:Button ID="flag2" runat="server" OnClick="Button2_Click" Text="English" />
-                        <asp:Image ID="greekln" runat="server" ImageUrl="~/Images/greekfl.png" />
                         <asp:Button ID="flag1" runat="server" OnClick="Button1_Click1" Text="Greek" Font-Italic="True" />
+                        <asp:Image ID="greekln" runat="server" ImageUrl="~/Images/greekfl.png" />
                         <br />
         <asp:Label ID="welcome_message" runat="server" Text="Label" Font-Bold="True" Font-Italic="True" Font-Size="Large"></asp:Label>
         <br />
