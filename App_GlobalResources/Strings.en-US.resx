@@ -153,4 +153,7 @@
   <data name="shop2" xml:space="preserve">
     <value>Dubai</value>
   </data>
+  <data name="sizesearch" xml:space="preserve">
+    <value>More specific Search</value>
+  </data>
 </root>

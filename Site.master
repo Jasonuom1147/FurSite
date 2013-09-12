@@ -18,7 +18,7 @@
         .auto-style7
         {
             height: 345px;
-            width: 860px;
+            width: 909px;
         }
         .auto-style13
         {
@@ -32,17 +32,14 @@
         }
         .auto-style23
         {
-            height: 69px;
             width: 64px;
         }
         .auto-style24
         {
-            height: 69px;
-            width: 860px;
+            width: 909px;
         }
         .auto-style25
         {
-            height: 69px;
             width: 26px;
         }
         .auto-style26
@@ -53,7 +50,7 @@
         .auto-style27
         {
             height: 348px;
-            width: 860px;
+            width: 909px;
         }
         .auto-style28
         {
@@ -99,6 +96,12 @@
                                 <asp:MenuItem Text="Quality" Value="Quality" meta:resourcekey="MenuItemResource8"></asp:MenuItem>
                                 <asp:MenuItem Text="News" Value="News" meta:resourcekey="MenuItemResource9"></asp:MenuItem>
                                 <asp:MenuItem Text="Originality" Value="Originality" meta:resourcekey="MenuItemResource10"></asp:MenuItem>
+                                <asp:MenuItem Text="Advanced Search" Value="Advanced Search">
+                                    <asp:MenuItem NavigateUrl="~/pricesearch.aspx" Text="Price" Value="Price"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/sizesearch.aspx" Text="length" Value="length"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/shoulder.aspx" Text="shoulder" Value="shoulder"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Sleevesearch.aspx" Text="sleeves" Value="sleeves"></asp:MenuItem>
+                                </asp:MenuItem>
                             </Items>
                             <StaticHoverStyle BackColor="#FFCC99" Font-Bold="True" Font-Italic="True" Font-Size="X-Large" />
                             <StaticMenuItemStyle BackColor="#009933" BorderColor="#996633" BorderStyle="Ridge" BorderWidth="10px" Font-Bold="True" Font-Size="X-Large" />
@@ -113,7 +116,7 @@
                         
         <asp:TextBox ID="TextBox1" runat="server" Width="128px" meta:resourcekey="TextBox1Resource1"></asp:TextBox>
                         <br />
-                    </td>
+                    &nbsp;&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style26" colspan="0">
@@ -165,8 +168,7 @@
         </asp:ContentPlaceHolder>
                     </td>
                     <td class="auto-style28">
-        <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/DUBAISHOP.jpg" Width="230px" Height="223px" style="margin-top: 0px" meta:resourcekey="Image2Resource1" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style19">
@@ -196,9 +198,8 @@
 
                                             </asp:ContentPlaceHolder></td>
                     <td class="auto-style13">
-                        <asp:Image ID="Image4" runat="server" Height="187px" ImageUrl="~/Images/fatisi-furs-shop.jpg" />
                         <asp:Label ID="shop1" runat="server" Text="Label"></asp:Label>
-                        <br />
+                        <br />                       
                         <br />
                         <br />
                         <br />

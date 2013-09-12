@@ -153,4 +153,7 @@
   <data name="shop2" xml:space="preserve">
     <value>Ντουμπάι</value>
   </data>
+  <data name="sizesearch" xml:space="preserve">
+    <value>Συγκεκριμένη Αναζήτηση </value>
+  </data>
 </root>
