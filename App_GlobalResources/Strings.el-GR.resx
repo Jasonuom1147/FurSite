@@ -156,4 +156,7 @@
   <data name="sizesearch" xml:space="preserve">
     <value>Συγκεκριμένη Αναζήτηση </value>
   </data>
+  <data name="Advanced_search" xml:space="preserve">
+    <value>Συγκεκριμένη Αναζήτηση</value>
+  </data>
 </root>

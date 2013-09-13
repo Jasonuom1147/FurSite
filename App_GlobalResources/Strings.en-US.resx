@@ -156,4 +156,7 @@
   <data name="sizesearch" xml:space="preserve">
     <value>More specific Search</value>
   </data>
+  <data name="Advanced_search" xml:space="preserve">
+    <value>More specific Search</value>
+  </data>
 </root>

@@ -31,7 +31,7 @@ public partial class Account_MasterPage : System.Web.UI.MasterPage
             ci = Thread.CurrentThread.CurrentCulture;
             LoadString(ci);
         }
- 
+
     
     }
     private void LoadString(CultureInfo ci)
@@ -42,6 +42,7 @@ public partial class Account_MasterPage : System.Web.UI.MasterPage
         flag2.Text = m.GetString("flag2", ci);
         shop1.Text = m.GetString("shop1", ci);
         shop2.Text = m.GetString("shop2", ci);
+        Advanced_search.Text = m.GetString("Advanced_search", ci);
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -84,5 +85,17 @@ public partial class Account_MasterPage : System.Web.UI.MasterPage
         Thread.CurrentThread.CurrentCulture = new CultureInfo("el-GR");
         LoadString(Thread.CurrentThread.CurrentCulture);
     }
-  
+
+    protected void Button1_Click2(object sender, EventArgs e)
+    {
+        if(DropDownList1.SelectedIndex == 0)
+            Response.Redirect("pricesearch.aspx");
+        if(DropDownList1.SelectedIndex == 1)
+            Response.Redirect("sizesearch.aspx");
+        if(DropDownList1.SelectedIndex == 2)
+            Response.Redirect("shoulder.aspx");
+        if (DropDownList1.SelectedIndex == 3)
+            Response.Redirect("Sleevesearch.aspx");
+
+    }
 }
