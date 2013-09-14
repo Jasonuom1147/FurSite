@@ -7,7 +7,7 @@
     <title>FurSite-EShop</title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link rel="stylesheet" type="text/css" href="css/Styles.css" />
+    <link rel="stylesheet" type="text/css" href="Css/styles.css" />
     <style type="text/css">
         .auto-style1
         {
@@ -18,47 +18,30 @@
         .auto-style7
         {
             height: 345px;
-            width: 548px;
-        }
-        .auto-style13
-        {
-            height: 345px;
-            width: 80px;
+            width: 733px;
         }
         .auto-style19
         {
             height: 345px;
-            width: 40px;
+            width: 33px;
         }
         .auto-style23
         {
-            width: 40px;
-            height: 135px;
+            width: 33px;
         }
         .auto-style24
         {
-            width: 548px;
-            height: 135px;
-        }
-        .auto-style25
-        {
-            width: 80px;
-            height: 135px;
+            width: 733px;
         }
         .auto-style26
         {
-            height: 507px;
-            width: 40px;
+            height: 348px;
+            width: 33px;
         }
         .auto-style27
         {
-            height: 507px;
-            width: 548px;
-        }
-        .auto-style28
-        {
-            height: 507px;
-            width: 80px;
+            height: 348px;
+            width: 733px;
         }
         #TheImage
         {
@@ -68,15 +51,41 @@
         }
         #img1
         {
-            height: 164px;
-            width: 150px;
+            height: 280px;
+            width: 342px;
         }
         #img2
         {
-            height: 150px;
-            width: 151px;
+            height: 265px;
+            width: 340px;
         }
-    </style>
+        .auto-style29
+        {
+            width: 100%;
+        }
+        .auto-style30
+        {
+            width: 124px;
+        }
+        .auto-style31
+        {
+            width: 659px;
+        }
+        .auto-style32
+        {
+            width: 114px;
+        }
+        .auto-style33
+        {
+            height: 348px;
+            width: 114px;
+        }
+        .auto-style34
+        {
+            height: 345px;
+            width: 114px;
+        }
+        </style>
 </head>
 <body onload="startTime();">
         <form id="form1" runat="server">
@@ -88,50 +97,55 @@
                         <br />
         <asp:Label ID="welcome_message" runat="server" Text="Label" Font-Bold="True" Font-Italic="True" Font-Size="Large"></asp:Label>
         <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                        &nbsp;<br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;<asp:Image ID="Image5" runat="server" Height="102px" ImageUrl="~/Images/logo.jpg" Width="175px" />
-        &nbsp;&nbsp; <asp:Image ID="Image1" runat="server" AlternateText="Fatisi Furs / Leather" Height="306px" ImageAlign="Middle" ImageUrl="~/Images/fatisi-furs-slide-header-1.jpg" Width="746px" BorderWidth="7px" ForeColor="Black" meta:resourcekey="Image1Resource1" style="margin-top: 0px; margin-left: 0px;" />
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <table class="auto-style29">
+            <tr>
+                <td class="auto-style30">&nbsp;</td>
+                <td class="auto-style31"> <asp:Image ID="Image1" runat="server" AlternateText="Fatisi Furs / Leather" Height="291px" ImageAlign="Middle" ImageUrl="~/Images/fatisi-furs-slide-header-1.jpg" ForeColor="Black" meta:resourcekey="Image1Resource1" style="margin-top: 0px; margin-left: 0px;" />
 
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                     <table class="auto-style1">
                 <tr>
                     <td class="auto-style23">
                         &nbsp;</td&nbsp;</td>
+                    <asp:Image ID="Image5" runat="server" Height="140px" ImageUrl="~/Images/logo.jpg" Width="209px" />
                     <td class="auto-style24">
                         &nbsp;&nbsp;
                         <asp:Menu ID="Menu3" runat="server" CssClass="fancyNav">
                             <Items>
-                                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
-                                <asp:MenuItem Text="Products" Value="Products" NavigateUrl="~/SubPages/Products.aspx"></asp:MenuItem>
-                                <asp:MenuItem Text="Quality" Value="Quality"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/SubPages/Products.aspx" Text="Products" Value="Products"></asp:MenuItem>
                                 <asp:MenuItem Text="Shipping" Value="Shipping"></asp:MenuItem>
+                                <asp:MenuItem Text="Quality" Value="Quality"></asp:MenuItem>
                                 <asp:MenuItem NavigateUrl="~/About.aspx" Text="About Us" Value="About Us"></asp:MenuItem>
                             </Items>
                         </asp:Menu>
                     </td>
-                    <td class="auto-style25">
+                    <td class="auto-style32">
                    <asp:Button ID="Search" runat="server" Text="Search" Width="79px" OnClick="Button1_Click" meta:resourcekey="SearchResource1" />
                         
                         <br />
                         
         <asp:TextBox ID="TextBox1" runat="server" Width="128px" meta:resourcekey="TextBox1Resource1"></asp:TextBox>
                         <br />
-                    &nbsp;&nbsp;<br />
-                        <asp:Label ID="Advanced_search" runat="server" Text="Label"></asp:Label>
-                        <br />
+                    &nbsp;<br />
+                        <asp:Label ID="Advanced_search" runat="server" Text="Label"></asp:Label><br />
                         <asp:DropDownList ID="DropDownList1" runat="server">
-                            <asp:ListItem>Price</asp:ListItem>
+                            <asp:ListItem>price</asp:ListItem>
                             <asp:ListItem>length</asp:ListItem>
                             <asp:ListItem>shoulder</asp:ListItem>
                             <asp:ListItem>sleeves</asp:ListItem>
                         </asp:DropDownList>
-                        <asp:Button ID="Button1" runat="server" Height="32px" OnClick="Button1_Click2" Text="Go" Width="44px" />
                         <br />
+                        <asp:Button ID="Button1" runat="server" Text="Go!" OnClick="Button1_Click3" Width="51px" />
                     </td>
                 </tr>
                 <tr>
@@ -167,7 +181,7 @@
             <p>
                 &nbsp;</p>
             <p>
-                    </p>
+                &nbsp;</p>
             <p>
                 &nbsp;</p>
             <p>
@@ -183,7 +197,9 @@
            
         </asp:ContentPlaceHolder>
                     </td>
-                    <td class="auto-style28">
+                    <td class="auto-style33">
+                        <br />
+                        <br />
                         <asp:Label ID="shop1" runat="server" Text="Label"></asp:Label>
                                 <br />
                                 <img id="img1" /><br />
@@ -239,7 +255,7 @@
                                             </p>
 
                                             </asp:ContentPlaceHolder></td>
-                    <td class="auto-style13">
+                    <td class="auto-style34">
                         <br />                       
                         <br />
                         <br />

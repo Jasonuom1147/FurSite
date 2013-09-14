@@ -19,8 +19,11 @@ public partial class SubPages_Products : System.Web.UI.Page
         DataTable dt = new DataTable();
         da.Fill(dt);
         con.Close();
-
         listView.DataSource = dt;
         listView.DataBind();
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("cart.aspx?Id=" + Request.QueryString["Id"]);
     }
 }

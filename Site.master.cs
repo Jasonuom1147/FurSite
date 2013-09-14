@@ -85,14 +85,13 @@ public partial class Account_MasterPage : System.Web.UI.MasterPage
         Thread.CurrentThread.CurrentCulture = new CultureInfo("el-GR");
         LoadString(Thread.CurrentThread.CurrentCulture);
     }
-
-    protected void Button1_Click2(object sender, EventArgs e)
+    protected void Button1_Click3(object sender, EventArgs e)
     {
-        if(DropDownList1.SelectedIndex == 0)
+        if (DropDownList1.SelectedIndex == 0)
             Response.Redirect("pricesearch.aspx");
-        if(DropDownList1.SelectedIndex == 1)
+        if (DropDownList1.SelectedIndex == 1)
             Response.Redirect("sizesearch.aspx");
-        if(DropDownList1.SelectedIndex == 2)
+        if (DropDownList1.SelectedIndex == 2)
             Response.Redirect("shoulder.aspx");
         if (DropDownList1.SelectedIndex == 3)
             Response.Redirect("Sleevesearch.aspx");

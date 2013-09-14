@@ -51,6 +51,7 @@
                         <%# Eval("Name") %></b></div>
                 <div>
                     Price: $<%# Eval("Price") %></div>
+                <div><asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Add to cart" /></div>
             </div>
         </ItemTemplate>
         <ItemSeparatorTemplate>
