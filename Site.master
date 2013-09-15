@@ -8,41 +8,10 @@
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" type="text/css" href="Css/styles.css" />
+    <link rel='stylesheet' type='text/css' href='Css/vertmenu.css' />
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <style type="text/css">
-        .auto-style1
-        {
-            width: 115%;
-            margin-top: 0px;
-            height: 826px;
-        }
-        .auto-style7
-        {
-            height: 345px;
-            width: 733px;
-        }
-        .auto-style19
-        {
-            height: 345px;
-            width: 33px;
-        }
-        .auto-style23
-        {
-            width: 33px;
-        }
-        .auto-style24
-        {
-            width: 733px;
-        }
-        .auto-style26
-        {
-            height: 348px;
-            width: 33px;
-        }
-        .auto-style27
-        {
-            height: 348px;
-            width: 733px;
-        }
+  
         #TheImage
         {
             height: 143px;
@@ -151,27 +120,33 @@
                 <tr>
                     <td class="auto-style26" colspan="0">
                         <br />
-                        <asp:Label ID="Label1" runat="server" Text="Home"></asp:Label>
-                        <asp:Menu ID="Menu2" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Small" ForeColor="#990000" StaticSubMenuIndent="10px" Font-Italic="True" Font-Underline="False">
-                            <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
-                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                            <DynamicMenuStyle BackColor="#FFFBD6" />
-                            <DynamicSelectedStyle BackColor="#FFCC66" />
-                            <Items>
-                                <asp:MenuItem NavigateUrl="~/SubPages/VisonFurs.aspx" Text="Vison" Value="Vison"></asp:MenuItem>
-                                <asp:MenuItem NavigateUrl="~/SubPages/ChinchilaFurs.aspx" Text="Chinchila" Value="Chinchila"></asp:MenuItem>
-                                <asp:MenuItem NavigateUrl="~/SubPages/SableFurs.aspx" Text="Fox" Value="Fox"></asp:MenuItem>
-                                <asp:MenuItem Text="Lynx Furs" Value="Lynx Furs"></asp:MenuItem>
-                                <asp:MenuItem Text="Saga Furs Collection" Value="Saga Furs Collection"></asp:MenuItem>
-                                <asp:MenuItem Text="High Fashion Furs" Value="High Fashion Furs"></asp:MenuItem>
-                                <asp:MenuItem Text="Other Furs" Value="Other Furs"></asp:MenuItem>
-                            </Items>
-                            <StaticHoverStyle BackColor="#990000" ForeColor="White" />
-                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                            <StaticSelectedStyle BackColor="#FFCC66" />
-                        </asp:Menu>
                     
-                    </td>
+                    <div id='cssmenu'>
+                <ul>
+                    <li class='active'><a href='Home.aspx'><span>Home</span></a></li>
+                    <li class='has-sub'><a href='SubPages/ChinchilaFurs.aspx'><span>Chinchila</span></a>
+                     <ul>
+                        <li class='has-sub'><a href='#'><span>Chinchila coat</span></a>
+                        <ul>
+                        <li><a href='#'><span>Chinchila white</span></a></li>
+                          <li class='last'><a href='#'><span>Chinchila grey</span></a></li>
+                         </ul>
+                          </li>
+                         <li class='has-sub'><a href='#'><span>Chinchila jacket</span></a>
+                        <ul>
+                        <li><a href='#'><span>Chinchila white</span></a></li>
+                         <li class='last'><a href='#'><span>Chinchila grey</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='#'><span>Fox Furs</span></a></li>
+   <li><a href='#'><span>High Fashion Furs</span></a></li>
+   <li><a href='#'><span>Lynx Furs</span></a></li>
+   <li><a href='#'><span>Swakara Furs</span></a></li>
+   <li><a href='#'><span>Saga Collection Furs</span></a></li>
+   <li><a href='SubPages/VisonFurs.aspx'><span>Vison Furs</span></a></li>
+   <li class='last'><a href='#'><span>Other Furs</span></a></li></ul></div></td>
                     <td class="auto-style27">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
            
