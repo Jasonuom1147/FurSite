@@ -97,4 +97,9 @@ public partial class Account_MasterPage : System.Web.UI.MasterPage
             Response.Redirect("Sleevesearch.aspx");
 
     }
+    protected void flag3_Click(object sender, EventArgs e)
+    {
+        Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
+        LoadString(Thread.CurrentThread.CurrentCulture);
+    }
 }

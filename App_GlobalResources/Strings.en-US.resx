@@ -127,10 +127,10 @@
     <value>English</value>
   </data>
   <data name="flag1" xml:space="preserve">
-    <value>Greek</value>
+    <value />
   </data>
   <data name="flag2" xml:space="preserve">
-    <value>English</value>
+    <value />
   </data>
   <data name="Header" xml:space="preserve">
     <value>Localization In ASP.NET</value>
@@ -158,5 +158,8 @@
   </data>
   <data name="Advanced_search" xml:space="preserve">
     <value>More specific Search</value>
+  </data>
+  <data name="flag3" xml:space="preserve">
+    <value />
   </data>
 </root>
