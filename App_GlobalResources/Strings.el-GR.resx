@@ -162,4 +162,13 @@
   <data name="flag3" xml:space="preserve">
     <value />
   </data>
+  <data name="insProdHead" xml:space="preserve">
+    <value>Κέντρο διαχείρισης εισαγωγή προιόντων στη βάση</value>
+  </data>
+  <data name="Submitimport" xml:space="preserve">
+    <value>Επιβεβαίωση!</value>
+  </data>
+  <data name="CreateUserLink" xml:space="preserve">
+    <value>Νέος χρήστης</value>
+  </data>
 </root>
