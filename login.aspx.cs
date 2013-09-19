@@ -9,18 +9,19 @@ using System.Data.SqlClient;
 using System.Data.Sql;
 using System.Configuration;
 
+
 public partial class login : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
 
     }
-    protected void _Authenticate(object sender, AuthenticateEventArgs e)
+    protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
     {
-        //authentication code
+                //authentication code
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ToString());
 
-        string aSQL = "select ID_USER, NAME_USER, PASSWORD from [USER] where UPPER(NAME_USER)= @USER and UPPER(PASSWORD)=@PASS" ;
+        string aSQL = "select ID_USER, NAME_USER, PASSWORD from [User] where UPPER(NAME_USER)= @USER and UPPER(PASSWORD)=@PASS" ;
         try
         {
             SqlCommand cmd = new SqlCommand(aSQL, con);

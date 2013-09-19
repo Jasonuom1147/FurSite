@@ -9,7 +9,6 @@
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="Id" DataSourceID="SqlDataSource1" Height="242px" Width="443px" AllowPaging="True" AllowSorting="True" Font-Size="Medium" meta:resourcekey="GridView1Resource1" GridLines="Vertical">
             <AlternatingRowStyle BackColor="#DCDCDC" />
             <Columns>
-                <asp:CommandField ShowSelectButton="True" meta:resourcekey="CommandFieldResource1" />
                 <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" DataFormatString="{0:c}" meta:resourcekey="BoundFieldResource1" />
                 <asp:BoundField DataField="price" HeaderText="price" SortExpression="price" DataFormatString="{0:c}" meta:resourcekey="BoundFieldResource2" />
                 <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="infoproduct.aspx?ID={0}" DataTextField="Name" HeaderText="Name" meta:resourcekey="HyperLinkFieldResource1" HeaderImageUrl="~/Images/shoppingcart.jpg" />

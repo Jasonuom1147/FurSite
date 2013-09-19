@@ -15,8 +15,8 @@ public partial class cart : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         //login authentication
-        if (Session["user"] != null)  
-        {
+        if (Session["user"] != null) //security login 
+       {
             if (!IsPostBack)
             {
                 if (Request.QueryString["Id"] != null)
@@ -27,9 +27,9 @@ public partial class cart : System.Web.UI.Page
                 }
             }
         }
-        else
-            Response.Redirect("login.aspx?ID=" + Request.QueryString["Id"] + "&quant=" + Request.QueryString["quant"]);
-
+      else
+         Response.Redirect("login.aspx?ID=" + Request.QueryString["Id"] + "&quant=" + Request.QueryString["quant"]);
+            //
     }
     protected void Button2_Click(object sender, EventArgs e)
     {

@@ -8,7 +8,7 @@
             <asp:QueryStringParameter Name="Id" QueryStringField="Id" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
-    <asp:FormView ID="FormView1" runat="server" CellPadding="4" DataKeyNames="Id" DataSourceID="SqlDataSource1" ForeColor="#333333" OnPageIndexChanging="FormView1_PageIndexChanging" Width="192px">
+    <asp:FormView ID="FormView1" runat="server" CellPadding="4" DataKeyNames="Id" DataSourceID="SqlDataSource1" ForeColor="#333333" OnPageIndexChanging="FormView1_PageIndexChanging" Width="140px" Height="237px">
         <EditItemTemplate>
             Id:
             <asp:Label ID="IdLabel1" runat="server" Text='<%# Eval("Id") %>' />
@@ -31,7 +31,7 @@
             price:
             <asp:TextBox ID="priceTextBox" runat="server" Text='<%# Bind("price") %>' />
             <br />
-            <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="Update" />
+            <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="true" CommandName="Update" Text="Update" />
             &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </EditItemTemplate>
         <EditRowStyle BackColor="#999999" />
@@ -63,6 +63,12 @@
             &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </InsertItemTemplate>
         <ItemTemplate>
+            Photo:
+             <div>
+                <li><img src="Photos/<%#Eval("Id")%>.jpg" />
+                    <br /><%#Eval("Name")%></li>
+                </div>
+            <br />
             Id:
             <asp:Label ID="IdLabel" runat="server" Text='<%# Eval("Id") %>' />
             <br />

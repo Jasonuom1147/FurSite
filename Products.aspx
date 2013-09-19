@@ -30,7 +30,7 @@
         }
     </style>
  
-    <asp:ListView runat="server" ID="listView" GroupItemCount="3">
+    <asp:ListView runat="server" ID="listView" GroupItemCount="3" OnSelectedIndexChanged="listView_SelectedIndexChanged">
         <LayoutTemplate>
             <div style="width: 500px;">
                 <asp:PlaceHolder runat="server" ID="groupPlaceHolder" />
@@ -44,14 +44,18 @@
         <ItemTemplate>
             <div class="productItem">
                 <div>
-                <li><img src="Photos/<%#Eval("Id")%>.jpg" /><br /><%#Eval("Name")%></li>
+                <li><img src="Photos/<%#Eval("Id")%>.jpg" />
+                    <br />Id: <%#Eval("Id")%></li>
                 </div>
                 <div>
-                    <b>
+                    <b>Name:
                         <%# Eval("Name") %></b></div>
                 <div>
-                    Price: $<%# Eval("Price") %></div>
-                <div><asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Add to cart" /></div>
+                    Price: €<%# Eval("Price") %></div>
+                               <a href="infoproduct.aspx?Id=<%#:Eval("Id") %>">               
+                                                    <span class="ProductListItem">
+                                                        <b>View Details<b>           
+                                                </a>
             </div>
         </ItemTemplate>
         <ItemSeparatorTemplate>

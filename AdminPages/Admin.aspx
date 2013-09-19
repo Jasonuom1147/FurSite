@@ -9,7 +9,7 @@
             }
             .auto-style38
             {
-                width: 293px;
+                width: 351px;
             }
             .auto-style39
             {
@@ -18,7 +18,7 @@
             }
             .auto-style40
             {
-                width: 293px;
+                width: 351px;
                 height: 20px;
             }
             .auto-style41
@@ -32,7 +32,7 @@
             }
             .auto-style43
             {
-                width: 293px;
+                width: 351px;
                 height: 22px;
             }
             .auto-style44
@@ -119,14 +119,17 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style37">&nbsp;</td>
-            <td class="auto-style38">
-                <asp:Button ID="Submitimport" runat="server" Height="29px" OnClick="Submitimport_Click" Text="Button" Width="67px" />
-            &nbsp;<asp:Label ID="Confirm_success" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="#006600" Text="Label"></asp:Label>
+            <td class="auto-style37">
+                <asp:Label ID="Label2" runat="server" Text="Image"></asp:Label>
             </td>
+            <td class="auto-style38">
+              <asp:FileUpload ID="ProductImage" runat="server" />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" Text="* Image path required." ControlToValidate="ProductImage" SetFocusOnError="true" Display="Dynamic"></asp:RequiredFieldValidator>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
     </table>
+                <asp:Button ID="Submitimport" runat="server" Height="29px" OnClick="Submitimport_Click" Text="Button" Width="67px" />
+            &nbsp;&nbsp;&nbsp;&nbsp; <asp:Label ID="Confirm_success" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" ForeColor="#006600" Text="Label"></asp:Label>
     <br />
     <br />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="LightGoldenrodYellow" BorderColor="Tan" BorderWidth="1px" CellPadding="2" DataKeyNames="Id" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="None">

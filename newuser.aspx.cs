@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
 using System.Data.SqlClient;
 using System.Data.Sql;
 using System.Configuration;
@@ -19,14 +20,15 @@ public partial class newuser : System.Web.UI.Page
     {
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ToString());
         string aSQL = "sp_Insertuser";
+      //  string asqlr = "UPDATE dbo.User SET Name = @NAME " + "password = @PASS"; 
         try
         {
             SqlCommand cmd = new SqlCommand(aSQL, con);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add("@User", SqlDbType.Char, 10, "NAME_SER").Value = CreateUserWizard1.UserName;
-            cmd.Parameters.Add("@Pass", SqlDbType.Char, 10, "PASSWORD").Value = CreateUserWizard1.Password;
+            cmd.Parameters.Add("@NAME", SqlDbType.Char, 15, "NAME_SER").Value = CreateUserWizard1.UserName; //instead of NAME_SER
+            cmd.Parameters.Add("@PASS", SqlDbType.Char, 10, "password").Value = CreateUserWizard1.Password;
             con.Open();
-            if (cmd.ExecuteNonQuery() > 0)
+            if (cmd.ExecuteNonQuery() > 0) //inserted to record (user created successfully)
                 CreateUserWizard1.ActiveStepIndex = 1;
 
             
@@ -41,7 +43,7 @@ public partial class newuser : System.Web.UI.Page
     {
         Response.Redirect("Home.aspx");
     }
-    protected void _createduser(object sender, EventArgs e)
+    protected void Password_TextChanged(object sender, EventArgs e)
     {
 
     }
