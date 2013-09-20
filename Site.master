@@ -150,7 +150,7 @@
         <table class="auto-style29">
             <tr>
                 <td class="auto-style30">&nbsp;</td>
-                <td class="auto-style31"> <asp:Image ID="Image1" runat="server" AlternateText="Fatisi Furs / Leather" Height="291px" ImageAlign="Middle" ImageUrl="~/Images/fatisi-furs-slide-header-1.jpg" ForeColor="Black" meta:resourcekey="Image1Resource1" style="margin-top: 0px; margin-left: 0px;" />
+                <td class="auto-style31"> <asp:Image ID="Image1" runat="server" AlternateText="Fatisi Furs / Leather" Height="291px" ImageAlign="Middle" ImageUrl="~/Images/fatisi-furs-slide-header-1.jpg" ForeColor="Black" meta:resourcekey="Image1Resource1" style="margin-top: 0px; margin-left: 0px;" Width="949px" />
 
                     </td>
                 <td>&nbsp;</td>
@@ -193,6 +193,9 @@
                         </asp:DropDownList>
                         <br />
                         <asp:Button ID="search_adv" runat="server" OnClick="Button1_Click3" Height="33px" Width="34px" />
+                        <br />
+                        <br />
+                        <br />
                     </td>
                 </tr>
                 <tr>
@@ -284,7 +287,31 @@
                 </tr>
                 <tr>
                     <td class="auto-style19">
-                        &nbsp;</td>
+                        <asp:Label ID="currencyconvert" runat="server" Text="Label"></asp:Label>
+                        <br />
+                        <asp:Label ID="curfrom" runat="server" Text="Label"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="curto" runat="server" Text="Label"></asp:Label>
+                        <br />
+                        <asp:DropDownList ID="DropDownList2" runat="server">
+                            <asp:ListItem>EUR</asp:ListItem>
+                        </asp:DropDownList>
+                        <asp:DropDownList ID="DropDownList3" runat="server">
+                            <asp:ListItem>EUR</asp:ListItem>
+                            <asp:ListItem>USD</asp:ListItem>
+                            <asp:ListItem>AED-UAE</asp:ListItem>
+                            <asp:ListItem>RUB-Russian</asp:ListItem>
+                            <asp:ListItem>CNY-Yuan</asp:ListItem>
+                        </asp:DropDownList>
+                        <br />
+                        <asp:Label ID="convprice" runat="server" Text="From"></asp:Label>
+                        <asp:TextBox ID="nomconv" runat="server" Width="70px"></asp:TextBox>
+                        <br />
+                        <asp:Button ID="currcovert" runat="server" OnClick="currcovert_Click" Text="Button" />
+                        <br />
+                        <asp:Label ID="curresult" runat="server" Text="currency"></asp:Label>
+                        <asp:TextBox ID="result" runat="server" Width="70px"></asp:TextBox>
+                    </td>
                     <td class="auto-style7"><asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
 
                                             <p>

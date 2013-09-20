@@ -1,0 +1,192 @@
+
+/********
+Author: John Leondus
+Copyright eLIONweb 2011
+Website: http://www.elionweb.com
+envato profile: http://www.codecanyon.com/user/eLION
+Unless you have bought an exclusive license do not delete the author info
+*************/
+/****** IMPORTANT! Please review ie.css and compare to this stylesheet before making changes that will effect IE ********/
+
+/******  This imports other stylesheets so you don't have to call them in an html file *****/
+@import url('../../reset.css');
+
+/*****************************************************
+The simplified 960 grid 
+*******************************************************/
+
+/*
+	Forces backgrounds to span full width,
+	even if there is horizontal scrolling.
+	Increase this if your layout is wider.
+
+	Note: IE6 works fine without this fix.
+*/
+
+body {
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#363636;
+}
+
+p, .tab-content li, h1, h2, h3{ /* This insures that there's enough space between your paragraphs, headings, etc */
+    margin-bottom: 10px;
+}
+
+a{
+	text-decoration:none; 
+	color:#EFDFB3;
+}
+
+a:hover{
+	color:#C0DFB3;
+}
+
+.tab-container h3{ /* Effects only the h3 headings inside the tabs */
+	font-size:147%;
+	color:#DFCC99;
+}
+/* `Containers
+----------------------------------------------------------------------------------------------------*/
+
+#container{ /* Use this to position the entire tab module */
+	margin:0 auto; 
+	width:480px; 
+	margin-top:4%;
+}
+
+/* `Common Styles
+----------------------------------------------------------------------------------------------------*/
+
+/* Tabs */
+	
+.tab-container {
+	position: relative; /* It's important to keep this position relative and the absolute positions in this file the same */
+	width: 100%; 
+	z-index:0;
+}
+
+.tab-container > div { 
+	display: inline;
+}
+
+.tab-container > div > a {  
+	position: relative !important; /* Keeps the tabs in line with each other */
+	text-decoration: none; 
+	color: #262626; 
+	display: inline-block;
+	padding: 4px 14px; 
+	font-size:15px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:2px;
+	background: #8EA9BC; /* old browsers */
+	background: -moz-linear-gradient(top, #8EA9BC 0%, #A2BBD1 52%, #758EA2 100%); /* firefox */
+	background: linear-gradient(top, #8EA9BC 0%, #A2BBD1 52%, #758EA2 100%); /* future browsers */
+	-pie-background: linear-gradient(top, #8EA9BC 0%, #A2BBD1 52%, #758EA2 100%); /* pie for ie */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8EA9BC), color-stop(52%,#A2BBD1), color-stop(100%,#758EA2)); /* webkit */
+	/** filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8EA9BC', endColorstr='#758EA2',GradientType=0 ); **/ /* uncomment this when ie decides not to put boxes behind elements with a border radius */
+	border:dashed 2px #CFA840;
+	padding: 4px 14px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 0px;
+	border-radius: 3px;
+    text-shadow: 0 -1px 0 #AFCBD1;
+	-moz-box-shadow: 0 4px 10px -5px #000000;
+	box-shadow: 0 4px 10px -5px #000000;
+	-webkit-box-shadow: 0 4px 10px -5px #000000;
+}
+
+.tab-container > div:not(:target) > a {
+}	
+
+.tab-container > div:target > a { 
+    background: none repeat scroll 0 0 #A2BBD1;
+    text-shadow: 0 1px 0 #AFCBD1;
+}	
+
+.tab-container > div > div { /* This is the container which holds the tab content */
+	background: #8EA9BC; /* old browsers */
+	background: -moz-linear-gradient(top, #8EA9BC 0%, #A2BBD1 84%, #758EA2 100%); /* firefox */
+	background: linear-gradient(top, #8EA9BC 0%, #A2BBD1 84%, #758EA2 100%); /* future browsers */
+	-pie-background: linear-gradient(top, #8EA9BC 0%, #A2BBD1 84%, #758EA2 100%); /* pie for ie */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8EA9BC), color-stop(84%,#A2BBD1), color-stop(100%,#758EA2)); /* webkit */
+	/** filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8EA9BC', endColorstr='#758EA2',GradientType=0 ); **/ /* uncomment this when ie decides not to put boxes behind elements with a border radius */
+	box-shadow: 0 1px 1px 0 #A7A7A7;
+	-webkit-box-shadow: 0 1px 1px 0 #A7A7A7;
+	-moz-box-shadow: 0 1px 1px 0 #A7A7A7;
+	z-index: -2;
+	top: 50px;
+	padding: 20px;
+	border:solid 6px #A2BBD1;
+	outline:dashed 2px #CFA840;
+	min-height:250px; /* Change this value if you need more or less content space */
+	position:absolute; /* Fixes IE 7 & 8 */
+}	
+.tab-container > div:not(:target) > div { 
+	position: absolute; /* This keeps the tab module contained */
+}
+
+.tab-container > div:target > div { 
+	position: absolute; 
+	z-index: 3 !important; /* Brings the content to the front depending on the tab that was clicked */ 
+	outline: 2px dashed #CFA840;
+	outline-offset: -8px; /*Delete if you don't want an offset*/
+	-moz-box-shadow: 0 0 12px 1px #000000 inset;
+	-webkit-box-shadow: 0 0 12px 1px #000000 inset;
+	box-shadow: 0 0 12px 1px #000000 inset;
+}
+
+div.tab-content{ /* Styles the inner content of the tabs */
+	padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+	
+.tab-content img{ 
+	margin:0 auto; 
+	display:block; 
+	padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/*
+	The following zoom:1 rule is specifically for IE6 + IE7.
+	Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+	zoom: 1;
+}

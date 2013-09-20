@@ -14,6 +14,9 @@ using System.Reflection;
 
 public partial class Account_MasterPage : System.Web.UI.MasterPage
 {
+    //web services open source
+    net.webservicex.www.CurrencyConvertor cur1 = new net.webservicex.www.CurrencyConvertor();
+    //end web services open source
     ResourceManager m;
     CultureInfo ci;
     protected void Page_Load(object sender, EventArgs e)
@@ -35,7 +38,7 @@ public partial class Account_MasterPage : System.Web.UI.MasterPage
     
     }
     private void LoadString(CultureInfo ci)
-    {
+    { //localization load correct language from resources
         Search.Text = m.GetString("search", ci);
         welcome_message.Text = m.GetString("welcome_message", ci);
         flag1.Text = m.GetString("flag1", ci);
@@ -43,6 +46,14 @@ public partial class Account_MasterPage : System.Web.UI.MasterPage
         shop1.Text = m.GetString("shop1", ci);
         shop2.Text = m.GetString("shop2", ci);
         Advanced_search.Text = m.GetString("Advanced_search", ci);
+        //CURRENCY Convertor localization
+        currcovert.Text = m.GetString("currcovert", ci);
+        currencyconvert.Text = m.GetString("currencyconvert", ci);
+        convprice.Text = m.GetString("convprice", ci);
+        curfrom.Text = m.GetString("curfrom", ci);
+        curto.Text = m.GetString("curto", ci);
+        curresult.Text = m.GetString("curresult", ci);
+        //end currency convertor localization
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -101,5 +112,49 @@ public partial class Account_MasterPage : System.Web.UI.MasterPage
     {
         Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
         LoadString(Thread.CurrentThread.CurrentCulture);
+    }
+    //web service currency convertor
+    protected void currcovert_Click(object sender, EventArgs e)
+    {
+        double nom1 = 0;
+        double nom2 = 0;
+        double total = 0;
+        if (DropDownList2.SelectedIndex == 0 & DropDownList3.SelectedIndex == 0)
+        {
+            Response.Write("Same Currency");
+        }
+        if (DropDownList2.SelectedIndex == 0 & DropDownList3.SelectedIndex == 1)
+        {
+
+            nom1 = Convert.ToDouble(cur1.ConversionRate(net.webservicex.www.Currency.EUR, net.webservicex.www.Currency.USD));
+            nom2 = Convert.ToDouble(nomconv.Text);
+            total = nom1 * nom2;
+            result.Text = Convert.ToString(total);
+        }
+        if (DropDownList2.SelectedIndex == 0 & DropDownList3.SelectedIndex == 2)
+        {
+
+            nom1 = Convert.ToDouble(cur1.ConversionRate(net.webservicex.www.Currency.EUR, net.webservicex.www.Currency.AED));
+            nom2 = Convert.ToDouble(nomconv.Text);
+            total = nom1 * nom2;
+            result.Text = Convert.ToString(total);
+        }
+        if (DropDownList2.SelectedIndex == 0 & DropDownList3.SelectedIndex == 3)
+        {
+
+            nom1 = Convert.ToDouble(cur1.ConversionRate(net.webservicex.www.Currency.EUR, net.webservicex.www.Currency.RUB));
+            nom2 = Convert.ToDouble(nomconv.Text);
+            total = nom1 * nom2;
+            result.Text = Convert.ToString(total);
+        }
+        if (DropDownList2.SelectedIndex == 0 & DropDownList3.SelectedIndex == 4)
+        {
+
+            nom1 = Convert.ToDouble(cur1.ConversionRate(net.webservicex.www.Currency.EUR, net.webservicex.www.Currency.CNY));
+            nom2 = Convert.ToDouble(nomconv.Text);
+            total = nom1 * nom2;
+            result.Text = Convert.ToString(total);
+        }   
+        //end of web service currency convertor
     }
 }

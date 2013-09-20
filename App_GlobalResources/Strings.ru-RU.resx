@@ -162,4 +162,22 @@
   <data name="welcome_message" xml:space="preserve">
     <value>добро пожаловать</value>
   </data>
+  <data name="currencyconvert" xml:space="preserve">
+    <value>Конвертор</value>
+  </data>
+  <data name="currcovert" xml:space="preserve">
+    <value>преобразование</value>
+  </data>
+  <data name="convprice" xml:space="preserve">
+    <value>цена</value>
+  </data>
+  <data name="curfrom" xml:space="preserve">
+    <value>от</value>
+  </data>
+  <data name="curto" xml:space="preserve">
+    <value>в</value>
+  </data>
+  <data name="curresult" xml:space="preserve">
+    <value>валюта</value>
+  </data>
 </root>

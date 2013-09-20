@@ -171,4 +171,22 @@
   <data name="CreateUserLink" xml:space="preserve">
     <value>New User</value>
   </data>
+  <data name="currencyconvert" xml:space="preserve">
+    <value>Currency converter</value>
+  </data>
+  <data name="currcovert" xml:space="preserve">
+    <value>Convert!</value>
+  </data>
+  <data name="convprice" xml:space="preserve">
+    <value>price</value>
+  </data>
+  <data name="curfrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="curto" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="curresult" xml:space="preserve">
+    <value>currency</value>
+  </data>
 </root>

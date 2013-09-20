@@ -171,4 +171,22 @@
   <data name="CreateUserLink" xml:space="preserve">
     <value>Νέος χρήστης</value>
   </data>
+  <data name="currencyconvert" xml:space="preserve">
+    <value>Μετατροπέας νομισμάτων</value>
+  </data>
+  <data name="currcovert" xml:space="preserve">
+    <value>Μετρατροπή</value>
+  </data>
+  <data name="convprice" xml:space="preserve">
+    <value>τιμή</value>
+  </data>
+  <data name="curfrom" xml:space="preserve">
+    <value>Από</value>
+  </data>
+  <data name="curto" xml:space="preserve">
+    <value>Σε</value>
+  </data>
+  <data name="curresult" xml:space="preserve">
+    <value>Συνάλλαγμα</value>
+  </data>
 </root>

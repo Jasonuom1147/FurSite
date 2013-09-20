@@ -1,0 +1,167 @@
+
+/********
+Author: John Leondus
+Copyright eLIONweb 2011
+Website: http://www.elionweb.com
+envato profile: http://www.codecanyon.com/user/eLION
+Unless you have bought an exclusive license do not delete the author info
+*************/
+/****** IMPORTANT! Please review ie.css and compare to this stylesheet before making changes that will effect IE ********/
+
+/******  This imports other stylesheets so you don't have to call them in an html file *****/
+@import url('../../reset.css');
+
+
+/*****************************************************
+The simplified 960 grid 
+*******************************************************/
+
+/*
+	Forces backgrounds to span full width,
+	even if there is horizontal scrolling.
+	Increase this if your layout is wider.
+
+	Note: IE6 works fine without this fix.
+*/
+
+body {
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+p, .tab-content li, h1, h2, h3{ /* This insures that there's enough space between your paragraphs, headings, etc */
+    margin-bottom: 10px;
+}
+
+a{
+	text-decoration:none; 
+	color:#FF0000;
+}
+
+a:hover{
+	color:#CC0000;
+}
+
+.tab-container h3{ /* Effects only the h3 headings inside the tabs */
+	font-size:147%;
+}
+/* `Containers
+----------------------------------------------------------------------------------------------------*/
+
+#container{ /* Use this to position the entire tab module */
+	margin:0 auto; 
+	width:480px; 
+	margin-top:4%;
+}
+
+/* `Common Styles
+----------------------------------------------------------------------------------------------------*/
+
+/* Tabs */
+	
+.tab-container {
+	position: relative; /* It's important to keep this position relative and the absolute positions in this file the same */
+	width: 100%; 
+	z-index:0;
+}
+
+.tab-container > div { 
+	display: inline-block; 
+}
+
+html>body .tab-container > div { *display:inline;} /** This is an unfortunate CSS hack to get IE7 to play nice.  Only IE7 can read it **/
+
+.tab-container > div > a {  
+	position: relative !important; /* Keeps the tabs in line with each other */
+	text-decoration: none; 
+	color: #000000; 
+	display: inline-block;
+	padding: 4px 14px; 
+	font-size:16px;
+	margin:2px;
+	background: #FFFFFF; 
+    border-bottom: 2px solid #AA0000;
+    border-top: 2px solid #AA0000;
+}
+
+.tab-container > div:not(:target) > a {
+}	
+
+.tab-container > div:target > a { 
+	background:#AA0000;
+	color:#FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+}	
+
+.tab-container > div > div { /* This is the container which holds the tab content */
+	background:#FFFFFF;
+	z-index: -2;
+	top: 50px;
+	padding: 20px;
+    border-bottom: 10px double #AA0000;
+    border-top: 10px double #AA0000;
+	min-height:250px; /* Change this value if you need more or less content space */
+	position:absolute; /* Fixes IE 7 & 8 */
+}	
+.tab-container > div:not(:target) > div { 
+	position: absolute; /* This keeps the tab module contained */
+}
+
+.tab-container > div:target > div { 
+	position: absolute; 
+	z-index: 3 !important; /* Brings the content to the front depending on the tab that was clicked */ 
+}
+
+.tab-container > div.tab-content{ /* Styles the inner content of the tabs */
+	padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+	
+.tab-content img{ 
+	margin:0 auto; 
+	display:block; 
+	padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/*
+	The following zoom:1 rule is specifically for IE6 + IE7.
+	Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+	zoom: 1;
+}

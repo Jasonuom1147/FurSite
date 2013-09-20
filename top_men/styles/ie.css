@@ -1,0 +1,4 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tab-container > div > div, .tab-container > div > a{behavior: url(../styles/csspie/PIE.htc);}
